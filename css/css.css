@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "PixeloidBold";
+    src: url("./fonts/pixeloidsans-bold-webfont.woff") format("woff"),
+    url("../fonts/PixeloidSans-Bold.otf") format("opentype"),
+    }
+
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    color: #ec60f6;
+    font-family: 'PixeloidBold'
+}
+
+.li {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    justify-content: center;
+    width: 20%;
+    margin: 20px;
+    right: 0.75%;
+    
+}
+
+.buttons {
+    position: relative;
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    margin: 20px;
+}
+
+
+body {
+    justify-content: center;
+    background-color: black;
+}
+
+
+
+.li button {
+    background-color: #9f04aa; 
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    color: rgb(46, 0, 88);
+    padding: 15px 32px;
+    text-align: center;
+    font-family: 'PixeloidBold';
+    font-size: larger;
+}
+
+.li button:hover {
+    background-color: #f346ff; 
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    color: rgb(46, 0, 88);
+    padding: 15px 32px;
+    text-align: center;
+}

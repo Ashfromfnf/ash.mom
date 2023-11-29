@@ -1,0 +1,5 @@
+@font-face {
+    font-family: "PixeloidBold";
+    src: url("./fonts/pixeloidsans-bold-webfont.woff") format("woff"),
+    url("../fonts/PixeloidSans-Bold.otf") format("opentype"),
+    }
